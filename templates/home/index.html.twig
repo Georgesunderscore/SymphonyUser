@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+ 
+{% block body %}
+    <h1>Hello HomeController! {{ app.user.pseudo}}</h1>
+    <p>Email ! {{ app.user.email}}</p>
+    {# <p>pass hash ! {{ app.user.password}}</p> #}
+
+{% endblock %}
